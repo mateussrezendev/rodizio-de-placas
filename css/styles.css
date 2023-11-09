@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+label, select, input, button {
+    margin: 5px;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+main {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+figure {
+    text-align: center;
+}
+
+.membros {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.membros img {
+    width: 150px;
+    height: 150px;
+}
+
+footer i {
+    font-size: 40px;
+  }
+  
+  footer i:first-child {
+    cursor: pointer;
+  }
+  
+  .ph-speaker-slash {
+    display: none;
+  }
+
+  body{
+    background-image: url("./Brkb.jpg");
+  }
+
+  h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: Oswald;
+    font-weight: bold
+  }
+
+  option{
+    background-color: gainsboro;
+    font-size: 25px;
+  }
+
+  button{
+    background-color: gainsboro;
+    font-size: 25px;
+  }
+  select{
+    font-size: 25px;
+    background-color: gainsboro;
+  }
+
+  label{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Oswald;
+  }
+input{
+    background-color: gainsboro;
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('/Oswald-Regular.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+} 
+
